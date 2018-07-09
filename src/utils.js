@@ -1,5 +1,5 @@
 import POGOProtos from "pokemongo-protobuf";
-import pcrypt from "pcrypt";
+const pcrypt = require('pogobuf-signature').pcrypt;
 
 import CFG from "../cfg";
 
